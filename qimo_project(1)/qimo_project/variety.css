@@ -1,0 +1,216 @@
+body{margin: 0px;}
+
+.box1{background-color:#eaeaea;
+      margin-top:70px;
+      width: 100%;
+      height: 2400px;
+      }
+
+.navigation{background-color:#69826c;
+            width: 100%;
+            height: 70px;
+            margin: 0px auto;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+           }
+
+ ul{ padding: 20px;
+     margin: 0px auto 0px 180px;}
+
+ li{
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: Helvetica;
+    display: inline;
+    }
+
+    a{text-decoration: none;
+      color:white; 
+      }
+     a:hover{color:black;}
+
+
+
+
+.box2 {margin-left: 1100px;
+     margin-top: -50px;
+    }
+#search{ top: 20px;
+         height: 35px;;
+         width: 280px;
+         border-radius: 5px;
+         font-size: 15px;
+         transition: 0.5s;             
+         background-color: white;
+         border: none; 
+         opacity: 0.5}
+
+.box3{position: relative;
+     width: 100%;
+     height: 300px;
+     margin-top: 65px;}
+      
+ .img1{width: 80%;
+       display: block;
+       margin:0 auto;}
+
+  .box4{position: absolute;
+        width: 650px;
+        font-size: Helvetica;
+        font-size: 23px;
+        color: white;
+        top:200px;
+        left: 0;
+        right: 0;
+        margin:0 auto;
+        line-height: 50px;
+        opacity: 0.8;
+        display: none;}
+      .box3:hover .box4{display: block;}
+
+.box5{
+     width: 100%;
+     height: 400px;
+     margin-top: 300px;}
+      
+ .img2{width: 50%;
+       display: block;
+       margin:0 auto;}
+
+.p1{text-align: center;
+     margin-top: 60px;
+     font-size: 16px;
+     font-family: Helvetica;}
+
+.p2{text-align: center;
+     margin-top: 1px;
+     font-size: 16px;
+     font-family: Helvetica;}
+
+  .p3{text-align: center;
+      margin-top: 1px;
+      font-size: 16px;
+      font-family: Helvetica;}
+
+  .box6{width: 70%;
+        height: 500px;
+        margin:90px auto 0 auto;
+      }
+          
+
+.table1{
+         margin:15px auto;
+         background-color: #eaeaea;
+         }
+   
+
+  .img3{width: 150px;
+        margin:20px;}
+ 
+ .p4{writing-mode: vertical-rl;
+     font-size: 18px;
+    font-family: Helvetica; 
+    margin-left: 55px;
+    line-height: 25px; }
+
+
+.p5{border: 1px solid #69826c;
+    margin-left: 60px;
+    color: #69826c;
+    font-family: Helvetica;
+    padding: 5px;
+     }
+  
+   .box7{position: relative;
+        width: 70%;
+        height: 500px;
+        border-top:2px solid #69826c;
+        margin:90px auto 0 auto;}
+
+  .p6{font-family:Helvetica;
+    font-size:30px;
+    padding-top: 30px;
+    text-align: center;
+    color:#69826c;
+     padding-bottom: 40px;}
+ 
+
+.img4{position: absolute;
+     z-index: 2;
+     width: 360px;
+      margin-left: 400px;
+      transition:all 0.5s ease-in-out;}
+.img4:hover{
+            transform:translate(-210px,0); }  
+
+
+.img5{position: absolute;
+    z-index: 2;
+    width: 360px;
+    left: 590px;
+   transition:all 0.5s ease-in-out;
+}
+.img5:hover{
+            transform:translate(210px,0);  }   
+
+.img6{position: absolute;
+     z-index: 1;
+    width: 360px;
+    left: 700px;
+   transition:all 0.5s ease-in-out;}
+.img6:hover{
+            transform:translate(210px,0);  }   
+
+.img7{position: absolute;
+     z-index: 1;
+    width: 360px;
+    left: 290px;
+   transition:all 0.5s ease-in-out;
+   }
+.img7:hover{
+            transform:translate(-210px,0);  }   
+
+.img8{position: absolute;
+    width: 360px;
+    left: 190px;
+   transition:all 0.5s ease-in-out;
+   }
+.img8:hover{
+            transform:translate(-210px,0);  }   
+
+
+.img9{position: absolute;
+    width: 360px;
+    left: 800px;
+   transition:all 0.5s ease-in-out;
+   }
+.img9:hover{
+            transform:translate(210px,0);  }   
+
+
+
+
+  .box9{position: absolute;
+        width: 330px;
+        height: 470px;
+        background-color:#67827c; 
+        top: 145px;
+       left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto;
+        z-index: 2;
+        }
+
+    .p7{color: white;
+      font-size: 25px;
+      font-family: Helvetica;
+      text-align: center;
+      line-height: 70px;
+      margin-top: 70px;}
+
+.box10{width: 100%;
+      height: 20px;
+      background-color:#69826c;
+      margin:200px 0 0 0; }

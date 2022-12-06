@@ -1,0 +1,203 @@
+
+body{margin: 0px;}
+
+.box1{background-color:#eaeaea;
+      margin-top:70px;
+      width: 100%;
+      height: 2600px;
+      }
+
+.navigation{background-color:#69826c;
+            width: 100%;
+            height: 70px;
+            margin: 0px auto;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+           }
+
+ ul{ padding: 20px;
+     margin: 0px auto 0px 180px;}
+
+ li{
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: 宋体;
+    display: inline;
+    }
+
+    a{text-decoration: none;
+      color:white; 
+      }
+     a:hover{color:black;}
+
+
+
+
+.box2 {margin-left: 1100px;
+     margin-top: -50px;
+    }
+#search{ top: 20px;
+         height: 35px;;
+         width: 280px;
+         border-radius: 5px;
+         font-size: 15px;
+         transition: 0.5s;             
+         background-color: white;
+         border: none; 
+         opacity: 0.5}
+
+
+#Mdown{margin: 0;padding: 0;text-align: center;
+       font: normal 14px/180% Tahoma,sans-serif;}
+#loginBox{margin: 0 auto;padding: 0px;text-align: center;
+          width: 400px;height: 250px;background: #eaeaea;
+          border: 1px solid #69826c;
+          overflow: hidden;filter: alpha(opacity=90);opacity: 1;}
+#loginBox .title{text-align: center;font-size: 17pt;
+                 border-bottom: 1px solid #67827c;
+                height: 27px;line-height: 25px;cursor: move;margin-top: 8px;}
+#loginBox .t1{float: none;
+             font-weight: 500px;
+            color: #67827c;
+            text-decoration: none;
+            }
+#loginBox .t2{float: right;text-align: center;line-height: 20px;
+            height: 36px;width: 36px;margin-top: -9px;margin-right: 0px;
+            overflow: hidden;
+            background: #69826c;cursor: pointer;}
+#loginBox .login{text-align: center;width: 100%;height: 100%;
+               font-size: 20px;}
+#input.submit{float: none;border: 1px solid #69826c;
+             font-size : 20px;background: #EAEEFF;
+             height: 50px;margin-top: 60px;margin-right: 180px;}
+#bgDiv{width: 100%;height: 100%;position: absolute;
+      top: 0px;left: 0px;right: 0px;
+      background-color: #777;opacity: 0.7;}     
+
+
+
+.box3{position: relative;
+     width: 100%;
+     height: 300px;
+     margin-top: 70px;}
+      
+ .img1{width: 80%;
+       display: block;
+       margin:0 auto;}
+
+.img2{position: absolute;
+      top: 200px;
+      left: 190px;
+      width:500px;
+      opacity: 0.8;
+      }
+
+.box4{
+     width: 100%;
+     height: 400px;
+     margin-top: 300px;}
+      
+ .img3{width: 50%;
+       display: block;
+       margin:0 auto;}
+
+ .p1{text-align: center;
+     margin-top: 60px;
+     font-size: 16px;
+     font-family: Georgia;}
+
+ .p2{text-align: center;
+     margin-top: 1px;
+     font-size: 16px;
+     font-family: Georgia;}
+
+  .p3{text-align: center;
+      margin-top: 1px;
+      font-size: 16px;
+      font-family: Georgia;}
+
+  .box5{width: 70%;
+        height: 500px;
+        border-top:2px solid #69826c;
+        margin:90px auto 0 auto;}
+
+.p4{font-family:Georgia;
+    font-size:30px;
+    margin:60px 60px 0px 70px;
+    color:#69826c }
+
+ .table1{
+         margin:50px auto;
+         background-color: #f1f3f2;
+         }
+  
+  .img4{width: 350px;
+        height: 220px;
+        margin:0px;}
+
+.td1{ text-align: center;
+      width: 280px;
+     
+     border: 0px;}
+
+.p5{font-size: 19px;
+    font-family: Georgia;
+    }
+
+.p6{font-size: 14px;
+    font-family: Georgia;
+    }
+
+  .img5{height: 220px;
+        width: 350px;}
+
+ .img6{width: 350px;}
+ .img7{width: 350px;
+      height: 220px;}
+ .img8{width: 350px;
+       height:220px;}
+
+.box6{position: relative;
+      width:80%;
+      height: 300px;
+      margin:400px auto 0 auto;
+      border-top:2px solid #69826c;}
+
+  .img9{width: 850px;
+        margin-left: 670px;
+        margin-top:287px;
+        opacity: 0.6;}
+
+.img10{position: absolute;
+       width: 62.5%;
+       display: block;
+       margin:0 auto;
+       top: 45px;
+       left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto;
+       }
+
+
+.box7{position: absolute;
+       width: 820px;
+      word-wrap:break-word; 
+      word-break:break-all;
+      top: 370px;
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto;}
+
+    .p7{font-family: Georgia;
+        font-size: 16px;
+        text-indent:2em; 
+        }
+
+
+.box8{width: 100%;
+      height: 20px;
+      background-color:#69826c;
+      margin:300px 0 0 0; }

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tea</title>
+	<link rel="stylesheet" type="text/css" href="Tea.css">
+	<meta charset="utf-8">
+</head>
+<body>
+  
+   	  
+   	   <div class="navigation"> 
+   	   	  <ul>
+   	   		<li><a href="Tea.html">Cultural History</a></li>
+   	   		<li><a href="variety.html">Type</a></li>
+   	   		<li><a href="art.html">Tea Ceremony</a></li>
+   	   		<li><a href="join.html">Join Us</a></li>
+   	      </ul>
+   	     
+   	      <div class="box2">
+   	     	<input type="text" id="search" placeholder="please enter..." name="" 
+   	     	 onfocus="bc()" onblur="lk()">
+   	     	
+   	     	<script  type="text/javascript">
+             function bc(){               
+            document.getElementById("search").style.width='300px';}
+             function lk()
+             {document.getElementById("search").style.width='200px';}
+           </script>
+   	       </div>
+
+
+            <div id="bgDiv" style="display:none;"></div>
+           <div style="margin-left: 1450px;font-family:宋体;font-size:24px;margin-top:-32px">
+            <a href="javascript:" onClick="bgDiv.style.display='';loginBox.style.display='';">Log in</a></div>
+            <div id="loginBox" style="position:absolute; left:750px; top:400px; z-index:1;display: none;" >
+            <div class="title" id="Mdown"><span class="t1">Log in</span><span class="t2" title="Close" onClick="login.style.display='none';bgDiv.style.display='none'">X</span></div>
+             <div class="login">
+                   <form method="post" action="#">
+                    <table>
+                      <tr>
+                        <td style="width: 120px;height: 80px">Username:</td><td><input type="text"name="username" size="22" maxlength="17" ></td>
+                        </tr>
+                      <tr>
+                       <td>password:</td><td><input type="text"name="password" size="22" maxlength="17"></td>
+                      </tr>
+                      <tr>
+                        <td></td><td style="height: 80px;"><button class="submit" type="submit" style="font-size: 18px;">Log in</button></td>
+                        </tr>
+                    </table>
+                    </form>
+            </div>
+        </div>
+    <script type="text/javascript">
+            var IsMousedown, LEFT, TOP, login;
+            document.getElementById("Mdown").onmousedown=function(e) {
+                login = document.getElementById("loginBox");
+                IsMousedown = true;
+                e = e||event;
+                LEFT = e.clientX - parseInt(login.style.left);
+                TOP = e.clientY - parseInt(login.style.top);
+                document.onmousemove = function(e) {
+                    e = e||event;
+                    if (IsMousedown) {
+                        login.style.left = e.clientX - LEFT + "px";
+                        login.style.top = e.clientY - TOP + "px";
+                    }
+                }
+                document.onmouseup=function(){
+                    IsMousedown=false;
+                }
+            }
+        </script>
+      </div>
+
+
+     <div class="box1">
+       
+       <div class="box3">
+       	<img class="img1" src="images/5.jpg" >
+        <img class="img2" src="images/7.jpg">
+
+       </div>
+       <div class="box4">
+         <img class="img3" src="images/6.jpg">
+         <p class="p1">Cha is a beverage originating in China made from the leaves or buds of the Camellia sinensis plant, also generally referring to the leaves of the evergreen shrub Camellia sinensis used to make tea, and beverages made from these leaves</p>
+         <p class="p2">Later, it was extended to all herbal teas made from plant flowers, leaves, and seed roots, such as "Tieguanyin" and so on.</p>
+         <p class="p3">Tea as a noted health drink. It is the contribution of the ancient southern Chinese people to Chinese food culture, and also to the world's food culture.</p>
+       </div>
+        
+        <div class="box5">
+           <table class="table1">
+               <p class="p4"><b>Tea making process</b></p>
+              <tr>
+                <td><img class="img4" src="images/10.jpg"></td>
+                <td class="td1">
+                  <p class="p5"><b>pick</b></p>
+                  <p class="p6">Pick early, pick tenderly, pick cleanly,</p>
+                  <p class="p6">Harvested from the vernal equinox to Qingming.</p>
+                </td>
+                <td><img class="img5" src="images/11.jpeg"></td>
+              </tr>
+              <tr>
+                <td class="td1">
+                  <p class="p5"><b>"kill"Qingqi</b></p>
+                  <p class="p6">Mainly based on ingredients, stir fry with both hands,</p>
+                  <p class="p6">Do the cleaning, shake the number, kill evenly, and kill thoroughly.</p>
+                </td>
+                <td><img class="img6" src="images/12.jpg"></td>
+                <td class="td1">
+                  <p class="p5"><b>Knead</b></p>
+                  <p class="p6">Side material, side fry, side knead,</p>
+                  <p class="p6">As the moisture decreases, cords gradually form.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img class="img7" src="images/9.jpg"></td>
+                <td class="td1">
+                  <p class="p5"><b>Fried</b></p>
+                  <p class="p6">Keep your hands on the tea, keep the tea on the pot, stir fry while kneading</p>
+                  <p class="p6">Stir-frying with kneading, combined with frying and kneading, continuous operation, ready to serve.</p>
+                </td>
+                <td><img class="img8" src="images/8.jpg"></td>
+              </tr>
+           </table>   
+        </div>
+
+        <div class="box6">
+           <img class="img9" src="images/13.jpg">
+           <img class="img10" src="images/14.jpg">
+           <div class="box7">
+              <p class="p7">Tea is the national drink of the Chinese nation. It originated in Shennong, heard about Lu Zhougong, flourished in the Tang Dynasty and flourished in the Song Dynasty, and now it has become one of the three most popular non-alcoholic beverages (tea/cocoa/caffeine) in the world.</p>
+              <p class="p7">The first teas drunk by countries all over the world were directly or indirectly spread from China. China is the birthplace of tea and is known as the "Motherland of Tea". Tea is the pride of the Chinese nation!</p>
+           </div>
+        </div>
+        <div class="box8"></div>
+  </div>
+</body>
+</html>
